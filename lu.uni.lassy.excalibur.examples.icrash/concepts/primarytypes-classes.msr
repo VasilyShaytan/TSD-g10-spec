@@ -66,8 +66,17 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation isAllocatedIfPossible():ptBoolean
 			}
 			
-
-
+			class ctSurvey role rnctSurvey cardinality [0..*]{
+				attribute id: dtSurveyID
+				attribute surveyResult: ptString
+				attribute instant: dtDateAndTime
+				
+				operation init(
+										Aid:dtSurveyID ,
+										Aresult:ptString ,
+										Ainstant:dtDateAndTime ): ptBoolean
+			}
+			
 			class ctHuman role rnctHuman cardinality [0..*]{
 				attribute id:dtPhoneNumber
 				attribute kind:etHumanKind

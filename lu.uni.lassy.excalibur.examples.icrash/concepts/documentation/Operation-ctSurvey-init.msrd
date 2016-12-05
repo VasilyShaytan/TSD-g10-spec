@@ -1,0 +1,28 @@
+/*
+@author Igor
+@date Wed Nov 30 22:50:08 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.classes.ctSurvey.init
+//parameters
+@parameter
+icrash.concepts.primarytypes.classes.ctSurvey.init.Aid
+""
+@parameter
+icrash.concepts.primarytypes.classes.ctSurvey.init.Aresult
+""
+@parameter
+icrash.concepts.primarytypes.classes.ctSurvey.init.Ainstant
+""
+@endParameters
+
+@description "
+used to initialize the current object as a new instance of the ctSurvey type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new ctSurvey instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

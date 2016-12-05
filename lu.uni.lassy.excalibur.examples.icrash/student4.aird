@@ -459,6 +459,14 @@
   <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/documentation/PrimaryType-Primitive-ptReal.msrd</semanticResources>
   <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/documentation/PrimaryType-Primitive-ptString.msrd</semanticResources>
   <semanticResources>documentation/View-em-gv-02.msrd</semanticResources>
+  <semanticResources>operations/environment/environment-actCoordinator-oeSubmitQualitySurvey.msr</semanticResources>
+  <semanticResources>operations/environment/documentation/Operation-actCoordinator-outactCoordinator-oeSubmitQualitySurvey.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeSubmitQualitySurvey.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-oeSubmitQualitySurvey.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtSurveyID-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtSurveyID.msrd</semanticResources>
+  <semanticResources>operations/concepts/primarytypes-classes/primarytypes-classes-ctSurvey-init.msr</semanticResources>
+  <semanticResources>concepts/documentation/Operation-ctSurvey-init.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_X0EtsPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

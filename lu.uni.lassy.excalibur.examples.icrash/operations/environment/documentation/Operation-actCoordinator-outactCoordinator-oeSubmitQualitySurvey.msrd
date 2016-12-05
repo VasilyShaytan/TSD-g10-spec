@@ -1,0 +1,33 @@
+@@Operation
+icrash.environment.actCoordinator.outactCoordinator.oeSubmitQualitySurvey
+//parameters
+@parameter icrash.environment.actCoordinator.outactCoordinator.oeSubmitQualitySurvey.AdtSurveyID
+"the identification information used to determine the survey to submit"
+@parameter
+icrash.environment.actCoordinator.outactCoordinator.oeSubmitQualitySurvey.Aresult
+"the textual result of a survey"
+@endParameters
+@description
+"sent to submit the result of the quality survey."
+
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+@endPreP
+
+//preFunctional descriptions
+@preF
+" none."
+@endPreF
+
+//postFunctional descriptions
+@postF //TODO more details
+"the coordinator actor is informed about the satisfaction of its request."
+@endPostF
+
+//postProtocol descriptions
+@postP 
+" none"
+@endPostP

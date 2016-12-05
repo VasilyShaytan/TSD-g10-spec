@@ -29,5 +29,7 @@
 "sent to define the gravity type of a specific crisis."
 @outputEvent icrash.environment.actCoordinator.outactCoordinator.oeValidateAlert
 "sent to indicate that a specific alert is not a fake."
+@outputEvent icrash.environment.actCoordinator.outactCoordinator.oeSubmitQualitySurvey
+"sent to indicate that a quality survey is submitted."
 
 @endOutputEvents

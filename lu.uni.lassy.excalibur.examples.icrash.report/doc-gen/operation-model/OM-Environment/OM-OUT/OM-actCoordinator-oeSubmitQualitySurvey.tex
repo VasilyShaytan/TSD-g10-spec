@@ -1,0 +1,43 @@
+\subsection{Operation Model for oeSubmitQualitySurvey}
+
+\label{OM-oeSubmitQualitySurvey}
+
+
+The \msrcode{oeSubmitQualitySurvey} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{oeSubmitQualitySurvey}{sent to submit the result of the quality survey.}
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{AdtSurveyID: dtSurveyID}{the identification information used to determine the survey to submit} 
+	\addnumbereddoublerow{}{Aresult: ptString}{the textual result of a survey} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+	\addrowheading{Pre-Condition (protocol)}
+	\addnumberedsinglerow{PreP}{the system is started}
+	\addnumberedsinglerow{PreP}{the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)}
+		
+	\addrowheading{Pre-Condition (functional)}
+	\addnumberedsinglerow{PreF}{ none.}
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{the coordinator actor is informed about the satisfaction of its request.}
+
+	\addrowheading{Post-Condition (protocol)}
+	\addnumberedsinglerow{PostP}{ none}
+	\end{operationmodel}
+
+
+
+	
+	
+	
+	
+
+
+
+
+

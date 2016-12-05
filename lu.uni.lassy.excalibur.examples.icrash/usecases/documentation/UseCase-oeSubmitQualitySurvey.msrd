@@ -1,0 +1,23 @@
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSubmitQualitySurvey hidden
+@description
+"goal is to submit the result for a specific quality survey.
+"
+@parameter icrash.usecases.subfunctions.oeSubmitQualitySurvey.AdtSurveyID ""
+@parameter icrash.usecases.subfunctions.oeSubmitQualitySurvey.Aresult ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

@@ -1,0 +1,12 @@
+/*
+@author Igor
+@date Thu Nov 17 14:10:04 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtSurveyID
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.dtSurveyID.is
+""
+@endOperations

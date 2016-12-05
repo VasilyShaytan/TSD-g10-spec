@@ -1,0 +1,10 @@
+/*
+@author Igor
+@date Wed Nov 16 13:48:39 MSK 2016
+*/
+
+
+@@view uc-oeSubmitQualitySurvey
+@model Use-Case icrash.usecases.subfunctions.oeSubmitQualitySurvey 
+@description ""
+@caption ""
